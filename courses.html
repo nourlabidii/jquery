@@ -1,0 +1,51 @@
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+
+</head>
+
+<body>
+    <ul>
+        <li><a href="index.html">home</a></li>
+        <li><a href="courses.html">courses</a></li>
+        <li><a href="contact.html">contact</a></li>
+    </ul>
+    <br>
+
+    <center>
+        <h1>Courses</h1>
+        <br>
+        <h4>FEEDBACK</h4>
+        <br>
+        <table style="border: 0">
+            <tr>
+                <td><button onclick="bold()">b</button></td>
+                <td><button onclick="italique()">I</button></td>
+                <td><button onclick="und()">Underline</button></td>
+                <td>
+                    <select onchange="sizes()" id="size">
+                        <option value="40px" >40px</option>
+                        <option value="60px">60px</option>
+                        <option value="80px">80px</option>
+                    </select>
+                    <select onchange="fontfam()" id="ar">
+                        <option value="Arial" >Arial</option>
+                        <option  value="times new roman">times new roman</option>
+                        <option value="Arial black" >Arial black</option>
+
+                        
+                    </select>
+                </td>
+            </tr>
+            <br>
+        </table>
+        <textarea id="text"></textarea>
+
+
+
+    </center>
+    <script src="../new/js/main.js"></script>
+</body>
+
+</html>
